@@ -1,23 +1,23 @@
 variable "rg_name" {
-    type = "string"
-    default = "My RG"
-  
+  type    = string
+  default = "My RG"
+
 }
 
 variable "location" {
-    type = "string"
-    default = "us east"
-  
+  type    = string
+  default = "us east"
+
 }
 variable "storageAccount" {
-    type = "string"
+  type = string
 
-    default = "sa name"
-  
+  default = "sa name"
+
 }
 variable "environment" {
-    type = "string"
+  type = string
 
-    default = "my env"
-  
+  default = "my env"
+
 }
